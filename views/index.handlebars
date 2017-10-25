@@ -1,0 +1,77 @@
+<form class="form-inline" action="/customize" method="post">
+  <label for="alignment">Customize</label>
+  <br>
+  <div class="form-group">
+    <label class="radio-inline">
+      <input type="radio" name="alignment" id="good" value="good"> Good
+    </label>
+    <label class="radio-inline">
+      <input type="radio" name="alignment" id="evil" value="evil"> Evil
+    </label>
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="food" name="food" placeholder="Favorite Food">
+  </div>
+  <div class="form-group">
+    <select class="form-control" name="color">
+      <option value="" disabled selected>Favorite Color</option>
+      <option value="black">Black</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+      <option value="green">Green</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="insanity">Insanity Level</label>
+    <input type="range" class="form-control" name="insanity" id="insanity" min="0" max="100">
+  </div>
+  <button type="submit" class="btn btn-primary">Customize</button>
+</form>
+
+{{#if id}}
+<div class="row">
+  <div class="col-sm-4">
+    <h3>Biography</h3>
+    {{#each profile.biography as |biographyLine|}}
+      <p>{{biographyLine}}</p>
+    {{/each}}
+  </div>
+  <div class="col-sm-2 clearfix">
+    <img class="img-responsive img-thumbnail" src="/images/{{id}}.jpg">
+  </div>
+  <div class="col-sm-3">
+    <h4>Likes</h4>
+    <ul>
+      {{#each profile.likes as |like|}}
+        <li>{{like}}</li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-sm-3">
+    <h4>Dislikes</h4>
+    <ul>
+      {{#each profile.dislikes as |dislike|}}
+        <li>{{dislike}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-8">
+    <h4>Professional Experience</h4>
+    <ul>
+      {{#each profile.resume.jobs as |job|}}
+        <li>{{job}}</li>
+      {{/each}}
+    </ul>
+    <h4>Additional Skills</h4>
+    <ul>
+      {{#each profile.resume.competencies as |competency|}}
+        <li>{{competency}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+{{/if}}

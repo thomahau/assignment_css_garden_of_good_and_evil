@@ -1,0 +1,103 @@
+{
+  "good": {
+    "lawfulGood": {
+      "name": "Superman",
+      "likes": [
+        "Justice",
+        "Kansas",
+        "Fortress of Solitude",
+        "Jor-El",
+        "Lois Lane"
+      ],
+      "dislikes": ["Kryptonite", "Lex Luthor"],
+      "biography": [
+        "He was born Kal-El on the planet Krypton, before being rocketed to Earth as an infant by his scientist father Jor-El, moments before Krypton's destruction.",
+        "Discovered and adopted by a farm couple from Kansas, the child is raised as Clark Kent and imbued with a strong moral compass.",
+        "Early in his childhood, he displays various superhuman abilities, which, upon reaching maturity, he resolves to use for the benefit of humanity through a 'Superman' identity."
+      ],
+      "resume": {
+        "jobs": ["Daily Planet", "Justice League", "Legion of Super Heroes"],
+        "competencies": [
+          "Superhuman physical abilities",
+          "Flight",
+          "Heat vision",
+          "Freezing breath",
+          "X-ray vision"
+        ]
+      }
+    },
+    "chaoticGood": {
+      "name": "V",
+      "likes": [
+        "Anarchy",
+        "Freedom",
+        "Swordsmanship",
+        "Demolition",
+        "Guy Fawkes"
+      ],
+      "dislikes": [
+        "Tyranny",
+        "Surveillance",
+        "Government",
+        "Propaganda",
+        "Prothero"
+      ],
+      "biography": [
+        "V is at one point an inmate at 'Larkhill Resettlement Camp'.",
+        "While there, he is part of a group of prisoners who are subjected to horrific medical experimentation.",
+        "All prisoners who are part of the experiment die, with the sole exception of 'the man in room five' ('V' in Roman numerals).",
+        "As a result of the experiments, the man develops Olympic-level physical abilities and an incredibly expanded intellect.",
+        "On a stormy night, he detonates a homemade bomb and escapes his cell.",
+        "He adopts the new identity, 'V', and dons a Guy Fawkes mask and costume."
+      ],
+      "resume": {
+        "jobs": ["Anarchist", "Vigilante", "Freedom Fighter"],
+        "competencies": [
+          "Superhuman physical abilities",
+          "Genius-level intellect",
+          "Master swordsman, martial artist, and marksman",
+          "Master of stealth",
+          "Master in demolition"
+        ]
+      }
+    }
+  },
+  "evil": {
+    "lawfulEvil": {
+      "name": "Darth Vader",
+      "likes": [
+        "The Dark Side",
+        "Galactic Empire",
+        "Emperor Palpatine",
+        "Evil",
+        "Lightsabers"
+      ],
+      "dislikes": ["The Force", "Obi-Wan Kenobi", "Luke Skywalker"],
+      "biography": [
+        "Anakin Skywalker was born a slave without a father and he can foresee the future.",
+        "Originally a Jedi prophesied to bring balance to the Force, he falls to the dark side of the Force and serves the evil Galactic Empire at the right hand of his Sith master, Emperor Palpatine"
+      ],
+      "resume": {
+        "jobs": ["Galactic Empire", "Right hand of Emperor Palpatine"],
+        "competencies": ["TIE fighter pilot", "Lightsaber swordsmanship"]
+      }
+    },
+    "chaoticEvil": {
+      "name": "The Joker",
+      "likes": ["Murder", "Theft", "Terrorism", "Spectacle", "Sadistic humor"],
+      "dislikes": ["Batman", "Arkham Asylum"],
+      "biography": [
+        "The Joker quits his job as a Lab assistant, becoming a stand-up comedian to support his pregnant wife. Unsuccessful, he agrees to help mobsters with a robbery and dons the Red Hood.",
+        "The heist goes awry; the comedian leaps into a chemical vat to escape Batman, surfacing disfigured. This, combined with the earlier accidental death of his wife and unborn child, drives the comedian insane and he becomes the Joker."
+      ],
+      "resume": {
+        "jobs": ["Injustice Gang", "Injustice League"],
+        "competencies": [
+          "Criminal mastermind",
+          "Expert chemist",
+          "Utilizes weaponized props and toxins"
+        ]
+      }
+    }
+  }
+}

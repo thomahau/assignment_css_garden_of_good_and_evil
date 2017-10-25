@@ -1,0 +1,39 @@
+img {
+  margin-top: 20px;
+}
+
+.chaoticGood {
+  font-family: 'Pacifico', cursive;
+}
+
+.lawfulEvil {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.chaoticEvil {
+  font-family: 'Rock Salt', cursive;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
